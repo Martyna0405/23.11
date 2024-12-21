@@ -188,6 +188,10 @@ class Student extends Person {
 
   Person thirdPerson = new Person("Maria", "Demo");
  Employee thirdEmployee = new Employee(thirdPerson, Departament.FINANCE);
+
+ System.out.println(firstEmployee);
+System.out.println(secondEmployee);
+System.out.println(thirdEmployee);
  
 }
 
