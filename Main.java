@@ -193,18 +193,18 @@ class Student extends Person {
   Person thirdPerson = new Person("Maria", "Demo");
  Employee thirdEmployee = new Employee(thirdPerson, Departament.FINANCE);
 
-List<Employee> employees = new ArrayList<>();
+//List<Employee> employees = new ArrayList<>();
  
-employees.add(firstEmployee);
-employees.add(secondEmployee);
-employees.add(thirdEmployee);
+//employees.add(firstEmployee);
+//employees.add(secondEmployee);
+//employees.add(thirdEmployee);
 
-System.out.println(employees);
+//System.out.println(employees);
 
-for (int i=0;i<employees.size();i++){
-        System.out.println(employees.get(i).toString());
+//for (int i=0;i<employees.size();i++){
+  //      System.out.println(employees.get(i).toString());
 
-    }
+  //  }
  
 }
 
