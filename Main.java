@@ -210,7 +210,7 @@ class Student extends Person {
 
 public company = Utils.initData();
 for (int i=0;i<employees.size();i++){
-        System.out.println(employees.get(i).toString());
+        System.out.println(company.getEmployees().get(i).toString());
       }
 return company;
  
