@@ -201,10 +201,10 @@ class Student extends Person {
 
 //System.out.println(employees);
 
-//for (int i=0;i<employees.size();i++){
-  //      System.out.println(employees.get(i).toString());
+for (int i=0;i<employees.size();i++){
+        System.out.println(employees.get(i).toString());
 
-  //  }
+    }
  
 }
 
