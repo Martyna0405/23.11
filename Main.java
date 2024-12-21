@@ -3,7 +3,7 @@ package org.example;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.ArrayList;
-
+import java.util.List;
 
 
  public class Main {
@@ -201,12 +201,14 @@ class Student extends Person {
 //System.out.println(employees);
 
 
-Company company = new Company("Super firma");
- List<Employees>employees = company.getEmployees();
-  employees.add(firstEmployee);
- employees.add(secondEmployee);
- employees.add(thirdEmployee);
- 
+//Company company = new Company("Super firma");
+//List<Employees>employees = company.getEmployees();
+ // employees.add(firstEmployee);
+// employees.add(secondEmployee);
+// employees.add(thirdEmployee);
+
+
+public company = Utils.initData();
 for (int i=0;i<employees.size();i++){
         System.out.println(employees.get(i).toString());
       }
