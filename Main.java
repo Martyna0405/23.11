@@ -200,6 +200,13 @@ class Student extends Person {
 
 //System.out.println(employees);
 
+
+Company company = new Company("Super firma");
+ List<Employees>employees = company.getEmployees();
+  employees.add(firstEmployee);
+ employees.add(secondEmployee);
+ employees.add(thirdEmployee);
+ 
 for (int i=0;i<employees.size();i++){
         System.out.println(employees.get(i).toString());
 
