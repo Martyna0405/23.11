@@ -2,6 +2,10 @@ package org.example;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.
+
+
 
  public class Main {
      public static void main(String[] args) {
@@ -189,9 +193,18 @@ class Student extends Person {
   Person thirdPerson = new Person("Maria", "Demo");
  Employee thirdEmployee = new Employee(thirdPerson, Departament.FINANCE);
 
- System.out.println(firstEmployee);
-System.out.println(secondEmployee);
-System.out.println(thirdEmployee);
+List<Employee> employees = new ArrayList<>();
+ 
+employees.add(firstEmployee);
+employees.add(secondEmployee);
+employees.add(thirdEmployee);
+
+System.out.println(employees);
+
+for (int i=0;i<employees.size();i++){
+        System.out.println(employees.get(i).toString());
+
+    }
  
 }
 
