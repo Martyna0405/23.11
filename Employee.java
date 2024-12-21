@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        package Test;
+        package Test;  //tutaj jest nazwa projektu w intelij//
         public class Employee extends Person {
             private Departament departament;
 
