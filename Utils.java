@@ -8,6 +8,20 @@ public class Utils {
             return input.nextInt();
         }
 
+
+
+    
+
+     Person firstPerson = new Person("Jan", "Testowy");
+ Employee firstEmployee = new Employee(firstPerson, Departament.SALES);
+
+  Person secondPerson = new Person("Kazimierz", "Nowak");
+ Employee secondmployee = new Employee(secondPerson, Departament.ADMINISTRATION);
+
+  Person thirdPerson = new Person("Maria", "Demo");
+ Employee thirdEmployee = new Employee(thirdPerson, Departament.FINANCE);
+
+
     Company company = new Company("Super firma");
  List<Employees>employees = company.getEmployees();
   employees.add(firstEmployee);
